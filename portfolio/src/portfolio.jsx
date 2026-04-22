@@ -17,7 +17,6 @@
  */
 
 import { useState, useEffect, useRef } from "react";
-import CVFile from './assets/CV_Alternance _ AKARID_Youness.pdf';
 
 // ─────────────────────────────────────────────
 // HOOK RESPONSIVE
@@ -778,14 +777,7 @@ function Hero() {
             Voir mes projets →
           </button>
           <button
-            onClick={() => {
-              const lien = document.createElement('a');
-              lien.href = CVFile;
-              lien.download = 'CV_AKARID_Youness.pdf';
-              document.body.appendChild(lien);
-              lien.click();
-              document.body.removeChild(lien);
-            }}
+            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             data-survol
             style={{
               background: "transparent", color: "var(--texte)",
@@ -807,7 +799,7 @@ function Hero() {
               e.currentTarget.style.color = "var(--texte)";
             }}
           >
-            Télécharger CV ↓
+            Me contacter
           </button>
         </div>
 
