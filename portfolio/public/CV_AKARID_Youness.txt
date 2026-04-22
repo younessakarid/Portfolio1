@@ -1,0 +1,102 @@
+AKARID Youness
+Développeur Full Stack
+
+📍 Paris, France
+📧 younesakarid@gmail.com
+📞 +33 7 53 63 92 82
+🔗 linkedin.com/in/younessakarid
+🔗 github.com/younessakarid
+
+═══════════════════════════════════════════════
+
+PROFIL
+
+Étudiant en Master Expert Architecte Web, à la recherche d'une alternance à partir de septembre 2026 pour mon Master 1 et Master 2 (2026-2028).
+
+Rythme : 3 semaines en entreprise / 1 semaine en formation.
+
+═══════════════════════════════════════════════
+
+SOFT SKILLS
+
+• Rigueur & autonomie
+• Travail en équipe
+• Esprit analytique
+• Résolution de problèmes
+• Gestion du temps
+
+═══════════════════════════════════════════════
+
+COMPÉTENCES
+
+LANGAGES
+JavaScript, Java, Python, SQL, PHP, C#, VB
+
+FRONT-END
+React.js, Next.js, Vue.js, Angular, HTML, CSS, Sass, Bootstrap, Tailwind CSS
+
+BACK-END
+Node.js, Express.js, Spring Boot, Laravel, REST API
+
+BASES DE DONNÉES
+MySQL, SQL Server, PostgreSQL, MongoDB
+
+OUTILS & MÉTHODES
+Git / GitHub – Agile (Scrum) – Docker
+
+DESIGN & UX/UI
+Adobe Illustrator, Adobe Photoshop, Figma (UX/UI Design)
+
+LANGUES
+Français : Courant
+Anglais : Opérationnel
+Arabe : Maternelle
+
+═══════════════════════════════════════════════
+
+EXPÉRIENCES PROFESSIONNELLES
+
+DÉVELOPPEUR FRONT-END | Stagiaire en alternance
+AGRIDATA CONSULTING – Agadir, Maroc
+📅 20 mai 2024 – 08 août 2025
+
+Développement d'interfaces web interactives et responsives avec React.js
+Création d'interfaces utilisateur modernes et attrayantes, garantissant une navigation fluide
+Utilisation de Git pour la gestion des versions et la collaboration en équipe
+Respect des bonnes pratiques de développement : code propre, composants réutilisables, design réactif et sécurité côté client
+Travail en équipe selon la méthode Agile
+
+Technologies utilisées :
+React.js, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3, Git, API REST
+
+═══════════════════════════════════════════════
+
+PROJETS RÉALISÉS
+
+PFE | APPLICATION WEB FULL STACK POUR GESTION DES RDV MÉDICAUX
+
+Interface dynamique avec React.js et design responsive (Tailwind CSS)
+Serveur Node.js pour la gestion des données des utilisateurs, rendez-vous et API
+Gestion des bases de données pour stocker les informations des patients et des rendez-vous
+
+Technologies utilisées :
+React.js, Tailwind CSS, Node.js, Express.js, MongoDB
+
+═══════════════════════════════════════════════
+
+FORMATION
+
+MASTÈRE EXPERT ARCHITECTE WEB
+Institut Européen F2I-DSP – Vincennes, Paris
+📅 2026 – 2028
+🔗 https://www.institut-f2i.fr/formations/mastere-expert-architecte-web/
+
+BACHELOR CONCEPTEUR DÉVELOPPEUR WEB FULL STACK
+Institut Européen F2I-DSP – Vincennes, Paris
+📅 2025 – 2026
+
+TECHNICIEN SPÉCIALISÉ EN DÉVELOPPEMENT INFORMATIQUE
+École Française d'Enseignement Technique – Agadir, Maroc
+📅 2023 – 2025
+
+═══════════════════════════════════════════════
