@@ -167,7 +167,7 @@ const EXPERIENCES = [
     poste: "Développeur Web Full Stack & CMS (Stage)",
     periode: "3 mois",
     desc: "Développement et maintenance d'applications web utilisant la stack MERN (MongoDB, Express, React, Node.js) et le CMS WordPress. Conception de sites e-commerce, personnalisation de thèmes et intégration de contenus. Optimisation du design et de l'expérience utilisateur pour garantir des interfaces fluides et performantes.",
-    tags: ["MERN Stack", "React.js", "Node.js","Express.js", "WordPress"],
+    tags: ["React.js", "Node.js","Express.js","MongoDB", "WordPress"],
   },
   {
   entreprise: "Digital school of paris",
