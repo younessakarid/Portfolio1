@@ -133,24 +133,7 @@ const PROJETS = [
     lien: "#",
     point_fort: "Full Stack",
     type: "Projet Final (PFE)",
-  },
-  {
-    id: "02",
-    nom: "Interface Client Interactive",
-    desc: "Conception et développement d'interfaces web responsives et modernes pour améliorer l'expérience utilisateur.",
-    tech: ["React", "Tailwind CSS", "JavaScript ES6+"],
-    lien: "#",
-    point_fort: "UX/UI Responsive",
-    type: "Professionnel",
-  },
-  {
-    id: "03",
-    nom: "Gestion des Données Métier",
-    desc: "Système de gestion des données utilisateurs et des rendez-vous avec une API REST sécurisée et optimisée.",
-    tech: ["Express.js", "MongoDB", "API REST", "Git"],
-    lien: "#",
-    point_fort: "API Sécurisée",
-    type: "Back-End",
+    image: "/src/assets/dental7paris.png",
   },
 ];
 
@@ -1196,8 +1179,8 @@ function CarteProjet({ projet }) {
       style={{
         background: "var(--surface)",
         border: `1px solid ${survol ? "rgba(0,255,159,0.25)" : "var(--bordure)"}`,
-        borderRadius: 8, padding: 28,
-        position: "relative", overflow: "hidden",
+        borderRadius: 8, overflow: "hidden",
+        position: "relative",
         transition: "border-color 0.3s, transform 0.3s, box-shadow 0.3s",
         transform: survol ? "translateY(-4px)" : "translateY(0)",
         boxShadow: survol
@@ -1205,7 +1188,32 @@ function CarteProjet({ projet }) {
           : "none",
       }}
     >
-      {/* En-tête */}
+      {/* Image du projet */}
+      {projet.image && (
+        <div style={{
+          width: "100%",
+          height: 200,
+          overflow: "hidden",
+          marginBottom: 0,
+          borderBottom: "1px solid var(--bordure)",
+        }}>
+          <img
+            src={projet.image}
+            alt={projet.nom}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              transition: "transform 0.3s",
+              transform: survol ? "scale(1.05)" : "scale(1)",
+            }}
+          />
+        </div>
+      )}
+
+      {/* Contenu */}
+      <div style={{ padding: 28 }}>
+        {/* En-tête */}
       <div style={{
         display: "flex", justifyContent: "space-between",
         alignItems: "flex-start", marginBottom: 16,
@@ -1287,6 +1295,7 @@ function CarteProjet({ projet }) {
       >
         VOIR LE PROJET →
       </a>
+      </div>
 
       {/* Lueur au survol */}
       {survol && (
