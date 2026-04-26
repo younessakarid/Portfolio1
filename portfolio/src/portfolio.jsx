@@ -86,7 +86,7 @@ const COMPETENCES = [
     categorie: "Back-End",
     icone: "⚙",
     items: [
-      { nom: "Node.js / Express", niveau: 89 },
+      { nom: "Node.js / Express.js", niveau: 89 },
       { nom: "MongoDB", niveau: 85 },
       { nom: "PostgreSQL / MySQL", niveau: 88 },
       { nom: "API REST", niveau: 90 },
@@ -163,7 +163,14 @@ const EXPERIENCES = [
     tags: ["React.js", "Tailwind CSS", "JavaScript ES6+", "Git", "Agile"],
   },
   {
-  entreprise: "Institut Européen F2I-DSP",
+    entreprise: "FIKRALABS (Agadir, Maroc)",
+    poste: "Développeur Web Full Stack & CMS (Stage)",
+    periode: "3 mois",
+    desc: "Développement et maintenance d'applications web utilisant la stack MERN (MongoDB, Express, React, Node.js) et le CMS WordPress. Conception de sites e-commerce, personnalisation de thèmes et intégration de contenus. Optimisation du design et de l'expérience utilisateur pour garantir des interfaces fluides et performantes.",
+    tags: ["MERN Stack", "React.js", "Node.js","Express.js", "WordPress"],
+  },
+  {
+  entreprise: "Digital school of paris",
   poste: "Étudiant — Bachelor Concepteur Développeur Web Full Stack (en cours)",
   periode: "2025 — 2027",
   desc: "Formation complète couvrant l’analyse, la conception et le développement de solutions digitales. Acquisition de compétences en gestion de projet (méthodologies Agile), administration systèmes et réseaux, cloud (AWS), ainsi qu’en stratégie digitale (SEO, UX/UI). Développement d’applications web et mobiles avec des technologies modernes, modélisation de bases de données (Merise, UML) et programmation algorithmique.",
