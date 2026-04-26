@@ -17,6 +17,7 @@
  */
 
 import { useState, useEffect, useRef } from "react";
+import dentalParis from "./assets/dentalparis.png";
 
 // ─────────────────────────────────────────────
 // HOOK RESPONSIVE
@@ -133,7 +134,7 @@ const PROJETS = [
     lien: "#",
     point_fort: "Full Stack",
     type: "Projet Final (PFE)",
-    image: "/src/assets/dentalparis.png",
+    image: dentalParis,
   },
   {
     id: "02",
