@@ -135,6 +135,24 @@ const PROJETS = [
     type: "Projet Final (PFE)",
     image: "/src/assets/dental7paris.png",
   },
+  {
+    id: "02",
+    nom: "Interface Client Interactive",
+    desc: "Conception et développement d'interfaces web responsives et modernes pour améliorer l'expérience utilisateur.",
+    tech: ["React", "Tailwind CSS", "JavaScript ES6+"],
+    lien: "#",
+    point_fort: "UX/UI Responsive",
+    type: "Professionnel",
+  },
+  {
+    id: "03",
+    nom: "Gestion des Données Métier",
+    desc: "Système de gestion des données utilisateurs et des rendez-vous avec une API REST sécurisée et optimisée.",
+    tech: ["Express.js", "MongoDB", "API REST", "Git"],
+    lien: "#",
+    point_fort: "API Sécurisée",
+    type: "Back-End",
+  },
 ];
 
 const EXPERIENCES = [
